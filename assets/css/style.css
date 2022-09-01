@@ -91,7 +91,7 @@ img {
     padding-top: 7px;
     padding-bottom: 7px;
     background-color: white;
-    box-shadow: var(--shadow);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);;
 }
 
 .navbar-toggler {
@@ -168,10 +168,18 @@ img {
 
 /* Home */
 #aboutme {
-    background-image: url(../images/hero.jpg);
+    background-image: url(../images/hero-01.png);
     background-position: center;
     background-size: cover;
+    background-color: #f4f1de;
 }
+
+@media all and (max-width: 768px) {
+    #aboutme {
+        background-image: none;
+    }
+}
+
 
 /* Skills */
 .skill-icon {
